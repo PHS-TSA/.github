@@ -1,3 +1,3 @@
 # .github
 
-Config files for github. Also host our public discussions.
+Config files for github. Also hosts our public discussions.
