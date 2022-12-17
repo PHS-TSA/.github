@@ -21,13 +21,15 @@ Otherwise, we're sorry to say, we can't accept your contributions.
 Sorry, but the rules are rules.
 
 
-### 👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
+### 👩‍💻 Useful resources - Is there anything else you should know?
+
+Related:
 
 - [Bipole](https://github.com/infinityJKA/bipoleV)
-- [Pattonville-Robotics](https://github.com/Pattonville-Robotics)
+- [@Pattonville-Robotics](https://github.com/Pattonville-Robotics)
 - [@PSDTools](https://github.com/PSDTools)
 
 
-### 🍿 Fun facts - what does your team eat for breakfast?
+### 🍿 Fun facts
 
 - Ummm. We like computers?
