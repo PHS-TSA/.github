@@ -26,6 +26,7 @@ eg. This pr ... does what?
 - [ ] Read the [Pull Request Guidelines](https://github.com/vitejs/vite/blob/main/CONTRIBUTING.md#pull-request-guidelines) and follow the [PR Title Convention](https://github.com/vitejs/vite/blob/main/.github/commit-convention.md).
 - [ ] Check that there isn't already a PR that solves the problem the same way to avoid creating a duplicate.
 - [ ] Provide a description in this PR that addresses **what** the PR is solving, or reference the issue that it solves (e.g. `fixes #123`).
+- [ ] Add notes to the worklog (docs/03-worklog.md)
 - [ ] Ideally, include relevant tests that fail without this PR but pass with it. (If applicable)
 
 
