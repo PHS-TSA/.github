@@ -1,6 +1,6 @@
 name: Feature Request
 description: Ask for something!
-labels: ["enhancement"]
+labels: ["Feature Requests"]
 assignees:
   - lishaduck
 body:
