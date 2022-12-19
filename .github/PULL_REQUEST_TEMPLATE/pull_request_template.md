@@ -25,7 +25,9 @@ eg. This pr ... does what?
 - [ ] Read the Contributing Guidelines.
 - [ ] Check that there isn't already a PR that solves the problem the same way to avoid creating a duplicate.
 - [ ] Provide a description in this PR that addresses **what** the PR is solving, or reference the issue that it solves (e.g. `fixes #123`).
-- [ ] Add notes to the worklog (docs/03-worklog.md)
+- [ ] Add notes to the worklog
+- [ ] Check that commits follow the Angular commit convention
+- [ ] Check that commits are signed with GPG
 - [ ] Ideally, include relevant tests that fail without this PR but pass with it. (If applicable)
 
 
@@ -33,3 +35,4 @@ eg. This pr ... does what?
 ### Tested on:
 - [ ] Ubuntu-latest Codespace (required)
 - [ ] Macos 12 (optional)
+- [ ] Other
