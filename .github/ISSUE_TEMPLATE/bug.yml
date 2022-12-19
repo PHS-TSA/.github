@@ -90,6 +90,8 @@ body:
     attributes:
       label: Context
       description: Anything thing else to add? Screenshots appreciated.
+    validations:
+      required: false
   - type: checkboxes
     id: terms
     attributes:
