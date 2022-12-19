@@ -83,6 +83,13 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Anything thing else to add? Screenshots appreciated.
   - type: checkboxes
     id: terms
     attributes:
