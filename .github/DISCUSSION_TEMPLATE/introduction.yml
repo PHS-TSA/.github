@@ -1,8 +1,24 @@
+# body[2]: Required attribute key label is missing. Learn more about this error.
+
+# body[2]: label is not a permitted key. Learn more about this error.
+
+# body[2]: description is not a permitted key. Learn more about this error.
+
+# body[2]: value is not a permitted key. Learn more about this error.
+
+# body[2]: render is not a permitted key. Learn more about this error.
+
+# body[4]: options[1]: description is not a permitted attribute. Learn more about this error.
+
+# Body must have unique ids. Learn more about this error.
+
+# Checkboxes must have unique labels. Learn more about this error.
+
 title: "Hi there! I'm ..."
 labels: ["Introduction"]
 body:
   - type: textarea
-    id: improvements
+    id: nice-to-meet-you
     attributes:
       label: Hello!
       description: "It's nice to meet you! Tell us something!"
@@ -10,8 +26,8 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: |
-        Now, down to business
+      label: Well, that was fun
+      value: Now, down to business
   - type: textarea
     id: improvements
     attributes:
