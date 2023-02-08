@@ -1,8 +1,11 @@
-name: Feature Request
-description: Ask for something!
-labels: ["Feature Requests"]
-assignees:
-  - lishaduck
+# name is not a permitted key. Learn more about this error.
+
+# description is not a permitted key. Learn more about this error.
+
+# assignees is not a permitted key. Learn more about this error.
+
+
+title: Feature Request
 body:
   - type: markdown
     attributes:
@@ -17,7 +20,7 @@ body:
     validations:
       required: false
   - type: textarea
-    id: is-problem?
+    id: is-problem
     attributes:
       label: Is your feature request related to a problem? Please describe.
       description: A clear and concise description of what the problem is.
