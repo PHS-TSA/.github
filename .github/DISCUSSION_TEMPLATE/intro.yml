@@ -2,19 +2,19 @@ title: "Hi there! I'm ..."
 labels: ["Introduction"]
 body:
   - type: textarea
-  id: improvements
-  attributes:
-    label: Hello!
-    description: "It's nice to meet you! Tell us something!"
-  validations:
-    required: true
+    id: improvements
+    attributes:
+      label: Hello!
+      description: "It's nice to meet you! Tell us something!"
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: |
-        Now, down to bussniess
+        Now, down to business
   - type: textarea
-  id: improvements
-  attributes:
+    id: improvements
+    attributes:
     label: Top 3 improvements
     description: "What are the top 3 improvements we could make to this project?"
     value: |
@@ -23,19 +23,19 @@ body:
       3.
       ...
     render: bash
-  validations:
-    required: true
+    validations:
+      required: true
   - type: dropdown
-  id: download
-  attributes:
-    label: Which area of this project could be most improved?
-    options:
-      - Documentation
-      - Pull request review time
-      - Bug fix time
-      - Release cadence
-  validations:
-    required: true
+    id: download
+    attributes:
+      label: Which area of this project could be most improved?
+      options:
+        - Documentation
+        - Pull request review time
+        - Bug fix time
+        - Release cadence
+    validations:
+      required: true
   - type: checkboxes
     attributes:
       label: Check that box!
