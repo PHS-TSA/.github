@@ -1,6 +1,8 @@
-name: Bug Report
+name: 🐞 Bug Report
 description: File a bug report
-labels: ["bug", "triage"]
+labels:
+  - "bug"
+  - "triage"
 assignees:
   - lishaduck
 body:
@@ -52,39 +54,45 @@ body:
     id: date
     attributes:
       label: Date
-      description: When did this bug happen?
+      description: When did this bug happen? (Preferably in ISO-8601)
     validations:
       required: true
   - type: textarea
     id: device
     attributes:
       label: What device are you seeing the problem on?
-      description: What device (eg. Pixel 4, iPhone 9, IBM PS/2 Note, Apple I)
+      description: What device (eg. Pixel 2, iPhone 14 Max, IBM PS/2 Note, Apple I)
   - type: dropdown
     id: os
     attributes:
-      label: What OSes are you seeing the problem on?
+      label: OS
+      description: What operating systems are you seeing the problem on?
       multiple: true
       options:
-        - Windows
-        - MacOS
-        - Linux/GNU
-        - ChromeOS
+        - Android
         - iOS
-        - Andriod
+        - Windows
+        - Linux/GNU
+        - macOS
         - Fuchsia
+        - ChromeOS
+    validations:
+      required: true
   - type: dropdown
     id: browsers
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: Browser
+      description: What browsers are you seeing the problem on?
       multiple: true
       options:
-        - Firefox
         - Chrome
+        - Firefox
         - Safari
-        - Microsoft Edge
-    validations:
-      required: true
+        - Chromium Microsoft Edge
+        - EdgeHTML Microsoft Edge
+        - Brave
+        - Opera
+        - Arc
   - type: textarea
     id: context
     attributes:

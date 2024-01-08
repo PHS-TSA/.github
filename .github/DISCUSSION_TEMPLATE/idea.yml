@@ -1,11 +1,4 @@
-# name is not a permitted key. Learn more about this error.
-
-# description is not a permitted key. Learn more about this error.
-
-# assignees is not a permitted key. Learn more about this error.
-
-
-title: Feature Request
+title: ⚡ Feature Request
 body:
   - type: markdown
     attributes:
