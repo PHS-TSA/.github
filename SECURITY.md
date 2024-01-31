@@ -7,7 +7,7 @@ currently being supported with security updates. -->
 
 | Version   | Supported          |
 | --------- | ------------------ |
-| 2022-2023 | :white_check_mark: |
+| 2023-2024 | :white_check_mark: |
 
 Currently, we update all projects for the current school year.
 Old, unmaintained projects will not be updated.
