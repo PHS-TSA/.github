@@ -72,7 +72,7 @@ body:
         - Android
         - iOS
         - Windows
-        - Linux/GNU
+        - Linux/GNU/BSD
         - macOS
         - Fuchsia
         - ChromeOS
