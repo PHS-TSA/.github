@@ -38,14 +38,17 @@ _Closes: #issue_
 
 ## Checklist
 
-> Before submitting the PR, please make sure you do the following
+> Before submitting the PR, please make sure you do the following:
 
+```[tasklist]
+### Checklist
 - [ ] Read the Contributing Guidelines.
 - [ ] Check that there isn't already a PR that solves the problem the same way to avoid creating a duplicate.
 - [ ] Fill out this template.
 - [ ] Log your hours.
 - [ ] Check that commits follow the Angular commit convention, more or less.
 - [ ] Ideally, include relevant tests that fail without this PR but pass with it (if applicable).
+```
 
 ## Tested on
 
