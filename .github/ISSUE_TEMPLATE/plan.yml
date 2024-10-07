@@ -1,9 +1,6 @@
 name: 📝 Enhancement Plan
 description: File an enhancement plan
-labels:
-  - "enhancement"
-assignees:
-  - lishaduck
+type: "enhancement"
 body:
   - type: textarea
     id: reason
@@ -14,16 +11,7 @@ body:
       value: A reason goes here!
     validations:
       required: true
-  - type: textarea
-    id: plan
+  - type: markdown
     attributes:
-      label: The Plan
-      description: Write a plan!
-      placeholder: A plan goes here!
       value: |
-        ```[tasklist]
-        #### Tasks
-        - [ ] Step 1...
-        ```
-    validations:
-      required: true
+        Please remember to break this up into as many sub-issues (of type of "Task") as needed for this enhancement.

@@ -1,0 +1,23 @@
+name: 📝 Task
+description: File an individual task
+type: "task"
+body:
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Explanation
+      description: Explain what needs to be done in detail.
+      placeholder: Quick summary of why we need this enhancement and what it will do for us.
+      value: A reason goes here!
+    validations:
+      required: true
+  - type: textarea
+    id: plan
+    attributes:
+      label: Steps
+      description: Break down the task into smaller steps.
+      placeholder: Put a list of steps here!
+      value: |
+        - [ ] Step 1...
+    validations:
+      required: true

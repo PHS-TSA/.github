@@ -13,7 +13,7 @@ This PR...
 > Which issue does this close?
 > If none, quickly write up a more detailed issue so any non-development-related discussion can go there.
 
-_Closes: #issue_
+_**Closes**: #issue_
 
 ---
 
@@ -40,22 +40,20 @@ _Closes: #issue_
 
 > Before submitting the PR, please make sure you do the following:
 
-```[tasklist]
-### Checklist
 - [ ] Read the Contributing Guidelines.
 - [ ] Check that there isn't already a PR that solves the problem the same way to avoid creating a duplicate.
 - [ ] Fill out this template.
 - [ ] Log your hours.
 - [ ] Check that commits follow the Angular commit convention, more or less.
 - [ ] Ideally, include relevant tests that fail without this PR but pass with it (if applicable).
-```
 
 ## Tested on
 
 > What device(s) have you tested this on?
 > Delete all non-applicable examples.
 
+- CI
 - macOS 14
-- Ubuntu 20.04
+- Ubuntu 24.04
 - Windows 10
 - etc.
