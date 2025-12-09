@@ -53,7 +53,7 @@ _**Closes**: #issue_
 > Delete all non-applicable examples.
 
 - CI
-- macOS 14
+- macOS 15
 - Ubuntu 24.04
 - Windows 10
 - etc.
